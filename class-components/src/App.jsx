@@ -1,13 +1,14 @@
 import FunctionalInput from './components/FunctionalInput';
 import ClassInput from './components/ClassInput';
 import './style.css';
+import Count from './components/Count';
 
 export default function App() {
   return (
     <>
       <FunctionalInput name="Functional component!" />
       <div className="divider" />
-      <ClassInput name="Class based component!" />
+      <ClassInput name="Class based component!" bullshit='BULLLLLSHITTT'/>
     </>
   );
 }
